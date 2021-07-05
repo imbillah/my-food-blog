@@ -1,0 +1,41 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 45px;
+    color: #565656;
+    line-height: 25px;
+}
+span{
+    color: #16BBFD;
+}
+
+.flex-container{
+    display: flex;
+}
+.box-item img{
+    height: 600px;
+    font-weight: 600px;
+}
+.box-item{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.box-item p{
+    text-align: justify;
+    font-size: 18px;
+    line-height: 25px;
+    padding-bottom: 25px;
+    color: dimgrey
+}
+.button-link{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,#14BBFC, #0387F6);
+    padding: 15px 25px;
+    border-radius: 25px;
+    font-weight: 700;
+    color: white;
+}
