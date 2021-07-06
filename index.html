@@ -9,13 +9,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 </head>
 <body>
-   <!--<section class="nav-bar"></section>-->
-   <section id="top-banner">
+   <section id="main">
+    <header>
+        <a class="logo" href="#">
+            <h2>
+            <span class="color-blue">FOOD</span> <span class="lastname">NETWORK</span>
+            </h2>
+        </a>
+        <nav>
+            <ul class="nav_item">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Recipies</a></li>
+                <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
     <div class="flex-container">
         <div class="box-item">
-            <h1><span>Skip</span> The Diet,</h1>
+            <h1><span class="color-blue">Skip</span> The Diet,</h1>
             <h1>Eat Healthy</h1>
             <h1>With Food Network</h1>
             <p>
@@ -28,10 +44,10 @@
         </div>
     </div>
    </section>
-   <section id="middle-part" >
+   <section id="about-me" >
        <div class="flex-container">
            <div class="box-item">
-               <img src="images/section2.png">
+               <img id="sec2img" src="images/section2.png">
            </div>
            <div class="box-item">
             <h2>About Me</h2>
@@ -42,28 +58,43 @@
            </div>
        </div>
    </section>
-   <section id="recipe"></section>
-   <div>
+   <section id="recipe">
+   <div class="recipe-header">
        <h2>My Recipies</h2>
        <p> I love cooking. I love eating even more. It seems that wherever I go recipes jump out at me and this blog is my place to record them. They are usually quick and simple, mostly seasonal and always delicious. I hope you enjoy them as much as my family and I do.</p>
-       <div id="recipe-box" class="flex-container">
-        <div>
+    </div>
+       <div id="recipe-type" class="flex-container">
+        <div class="recipe-item">
             <img src="images/recepie1.png" alt="Healthy Breakfast">
             <h3>Breakfast</h3>
             <p>Oats are loaded with fiber, so they’re a great healthy breakfast! If you’re like me, though, you might run the risk of getting stuck in an oat rut.</p>
         </div>
-       <div>
-        <img src="images/recepie2.png" alt="Healthy Lunch">
+       <div class="recipe-item">
+        <img src="images/recepie2.jpg" alt="Healthy Lunch">
         <h3>Lunch</h3>
         <p>With olives, hard-boiled egg, potatoes and green beans, this is a great make-ahead lunch you can pack on the go.Eat healthy with us</p>
        </div>
-       <div>
-        <img src="images/recepie1.png" alt="Healthy Dinner">
+       <div class="recipe-item">
+        <img src="images/recepie3.jpg" alt="Healthy Dinner">
         <h3>Dinner</h3>
         <p>Put together this healthy, delicious meal in advance, then just grab and go when you need to head out the door. Eat healthy with us</p>
        </div>
        </div>
-       
-   </div>
+           <div id="follower" class="flex-container">
+               <div class="follower-type"><h2>700k</h2>
+                <p>Youtube Subscribers</p>
+            </div>
+               <div class="follower-type"><h2>2.4m</h2>
+                Instagram Followers
+            </div>
+               <div class="follower-type"><h2>100k</h2>
+                <p>Twitter Followers</p>
+            </div>
+           </div>
+    </section>
+    <footer>
+        <h2><span class="color-blue">FOOD</span> <span class="lastname">NETWORK</span></h2>
+        <p>Eat Healthy To Live Healthy. Live Healthy To Live Happy.</p>
+    </footer>
 </body>
 </html>

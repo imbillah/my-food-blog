@@ -5,17 +5,46 @@ body{
 section{
     margin-bottom: 125px;
 }
-h1{
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 5%;
+    background-color: #EBF8FF;
+    margin-bottom: 50px;
+  }
+  .logo{
+    margin-right: auto;
+  }
+  header a{
+      text-decoration: none;
+  }
+  .nav_item{
+    list-style: none;
+    display: flex;
+  }
+  .nav_item a{
+    font-weight: 500;
+    font-size: 20px;
+    color: dimgrey;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .nav_item li{
+    padding: 0px 20px; 
+  }
+
+  h1{
     font-size: 45px;
     color: #565656;
     line-height: 25px;
 }
-span{
+.color-blue{
     color: #16BBFD;
 }
-
 .flex-container{
     display: flex;
+    justify-content: center;
 }
 .box-item img{
     height: 600px;
@@ -41,11 +70,107 @@ span{
     font-weight: 700;
     color: white;
 }
-#middle-part{
+.box-item h2{
+    color: dimgrey;
+    font-size: 30px;
+    padding-top: 100px;
+}
+#sec2img{
+    padding-top: 20px;
+}
+#about-me{
     background-image: url(images/section2-bg.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
-#recipe-box img{
+#recipe-type img{
     height: 250px;
     width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 20px;
+    object-fit: contain;
+    border-radius: 20px;
+}
+.recipe-item{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px #dad5d5;
+}
+.recipe-header h2{
+    text-align: center;
+    color: dimgrey;
+    font-size: 28px;
+}
+.recipe-header p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
+    color: dimgrey;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 30px;
+}
+#recipe-type h3{
+    text-align: center;
+    font-size: 22px;
+}
+#recipe-type p{
+    font-size: 16px;
+    line-height: 25px;
+    color: dimgrey;
+    text-align: left;
+    padding-left: 15px;
+}
+#recipe-type{
+    margin-left: 175px;
+    margin-right: 175px;
+    margin-bottom: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#follower{
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px #dad5d5;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.follower-type{
+    width: 35%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.follower-type h2{
+    font-size: 45px;
+    padding-left: 5px;
+}
+.follower-type p{
+    font-size: 16px;
+    color: dimgrey;
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+footer{
+    background-color: #EBF8FF;
+    padding-bottom: 50px;
+}
+footer h2{
+    text-align: center;
+    padding-top: 35px;
+    font-weight: 700;
+
+}
+.lastname{
+    color: #5B5B5B;
+}
+footer p{
+    font-size: 16px;
+    color: #A6A7AA;
+    text-align: center;
+    padding-top: 15px;
 }
